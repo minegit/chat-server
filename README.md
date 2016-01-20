@@ -34,7 +34,8 @@ REST API :
 			}
 	2.An api to get all the new messages for a user send from another user.
 		http://127.0.0.1:8000/chat/get?user_id=31&from_id=2
-		from_id is optional here. If it is given then it pick new messages from this user only otherwise all the messages from all the users will be fetched.
+		from_id is optional here. If it is given then it pick new messages
+		from this user only otherwise all the messages from all the users will be fetched.
 
 		{
 			status: 200,
